@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: #f4f7f4;
+  color: #2e4a35;
+}
+
+.launch-screen {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
+
+.left {
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  border-right: 1px solid #e8f0e9;
+}
+
+.right {
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background: #f4f7f4;
+}
+
+.app-name {
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  color: #2e4a35;
+}
+
+.headline {
+  font-size: 18px;
+  font-weight: 500;
+  color: #2e4a35;
+}
+
+.description {
+  font-size: 15px;
+  color: #6a9e72;
+  line-height: 1.7;
+  max-width: 420px;
+}
+
+.btn-primary {
+  background-color: #6a9e72;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 36px;
+  font-size: 16px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #5a8c61;
+}
+
+.quote-card {
+  background-color: #c8dbc9;
+  border-radius: 20px;
+  padding: 28px;
+}
+
+.quote-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #a3c4a8;
+}
+
+.quote-text {
+  font-family: "DM Serif Display", serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #2e4a35;
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+
+.quote-attr {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6a9e72;
+  letter-spacing: 0.05em;
+}
