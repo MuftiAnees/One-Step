@@ -99,3 +99,88 @@ body {
   color: #6a9e72;
   letter-spacing: 0.05em;
 }
+
+.task-screen {
+  display: none;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #2e4a35;
+  width: 260px;
+  height: 100vh;
+  padding: 36px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.main-content {
+  margin-left: 260px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sidebar .app-name {
+  color: #f4f7f4;
+  font-size: 24px;
+  font-family: "DM Serif Display", serif;
+}
+
+.nav-item {
+  color: #a3c4a8;
+  font-size: 14px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.nav-item.active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.greeting {
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+  color: #2e4a35;
+}
+
+.add-row {
+  display: flex;
+  gap: 10px;
+}
+
+.add-input {
+  border: 1.5px solid #e8f0e9;
+  background: white;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.9rem;
+  flex: 1;
+  outline: none;
+  min-width: 320px;
+}
+
+.add-btn {
+  border-radius: 12px;
+  background-color: #2e4a35;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  padding: 12px;
+  border: none;
+}
+
+.add-btn:hover {
+  background-color: #6a9e72;
+}

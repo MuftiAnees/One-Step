@@ -28,6 +28,38 @@
       </div>
     </div>
 
+    <!-- Task screen -->
+    <div class="task-screen" id="task-screen">
+      <div class="sidebar">
+        <h1 class="app-name">One Step</h1>
+        <nav>
+          <p class="nav-item active">Today</p>
+          <p class="nav-item">Someday</p>
+          <p class="nav-item">Completed</p>
+        </nav>
+      </div>
+
+      <div class="main-content">
+        <div class="main-header">
+          <h2 class="greeting">Good morning</h2>
+          <p class="date"></p>
+        </div>
+
+        <div class="add-row">
+          <input
+            class="add-input"
+            type="text"
+            placeholder="What's one thing you can do today?"
+          />
+          <button class="add-btn">+ Add task</button>
+        </div>
+
+        <div class="task-list" id="task-list">
+          <!-- tasks will appear here -->
+        </div>
+      </div>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
