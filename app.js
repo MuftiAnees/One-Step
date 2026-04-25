@@ -46,3 +46,16 @@ addInput.addEventListener("keydown", function (event) {
     addBtn.click();
   }
 });
+
+const hour = new Date().getHours();
+const greeting = document.querySelector(".greeting");
+
+if (hour < 12) {
+  greeting.textContent = "Good Morning";
+} else if (hour < 18) {
+  greeting.textContent = "Good Afternoon";
+} else if (hour < 21) {
+  greeting.textContent = "Good Evening";
+} else {
+  greeting.textContent = "Good Night";
+}
