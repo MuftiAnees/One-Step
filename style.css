@@ -184,3 +184,49 @@ body {
 .add-btn:hover {
   background-color: #6a9e72;
 }
+
+.task {
+  background-color: white;
+  border-radius: 14px;
+  padding: 14px 18px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(46, 74, 53, 0.07);
+}
+
+.task-text {
+  font-size: 0.9rem;
+  color: 2e4a35;
+  flex: 1;
+}
+
+.task-check {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #c8dbc9;
+  cursor: pointer;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.task.done {
+  background-color: #e8f0e9;
+  border: 0.1px solid #2e4a35;
+}
+
+.task.done .task-text {
+  text-decoration: line-through;
+  color: #a3c4a8;
+}
+
+.task.done .task-check {
+  background-color: #6a9e72;
+  border-color: #6a9e72;
+}
