@@ -17,17 +17,28 @@ addBtn.addEventListener("click", function () {
   if (taskText === "") {
     return;
   }
+
   const taskItem = document.createElement("div");
   taskItem.classList.add("task");
   taskItem.innerHTML = `
     <div class="task-check"></div>
     <p class="task-text">${taskText}</p>
+    <span class="delete-btn">
+      <i data-feather="trash-2"></i>
+    </span>
   `;
+
+  taskItem.querySelector(".delete-btn").addEventListener("click", function () {
+    taskItem.remove();
+  });
+
   taskItem.querySelector(".task-check").addEventListener("click", function () {
     taskItem.classList.toggle("done");
   });
+
   taskList.appendChild(taskItem);
   addInput.value = "";
+  feather.replace();
 });
 
 addInput.addEventListener("keydown", function (event) {

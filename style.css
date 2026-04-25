@@ -230,3 +230,13 @@ body {
   background-color: #6a9e72;
   border-color: #6a9e72;
 }
+
+.delete-btn {
+  color: #a3c4a8;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: #e57373;
+}
