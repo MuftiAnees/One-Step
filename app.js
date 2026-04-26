@@ -79,3 +79,11 @@ if (hour < 12) {
 }
 
 renderTasks();
+
+const now = new Date();
+const dateElement = document.querySelector(".date");
+dateElement.textContent = now.toLocaleDateString("en-US", {
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+});
