@@ -87,3 +87,34 @@ dateElement.textContent = now.toLocaleDateString("en-US", {
   month: "long",
   day: "numeric",
 });
+
+const quotes = [
+  {
+    text: "You don't have to see the whole staircase. Just take the first step.",
+    author: "Martin Luther King Jr.",
+  },
+  {
+    text: "Start where you are. Use what you have. Do what you can.",
+    author: "Arthur Ashe",
+  },
+  {
+    text: "It always seems impossible until it's done.",
+    author: "Nelson Mandela",
+  },
+  {
+    text: "You don't have to be great to start, but you have to start to be great.",
+    author: "Zig Ziglar",
+  },
+  { text: "Done is better than perfect.", author: "Sheryl Sandberg" },
+  {
+    text: "The secret of getting ahead is getting started.",
+    author: "Mark Twain",
+  },
+  { text: "Small steps every day.", author: "One Step" },
+];
+
+const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+const quoteText = document.querySelector(".quote-text");
+const quoteAttr = document.querySelector(".quote-attr");
+quoteText.textContent = `"${randomQuote.text}"`;
+quoteAttr.textContent = `— ${randomQuote.author}`;
