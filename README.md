@@ -8,7 +8,7 @@ One Step is a warm, minimal task tracker built for people who struggle to begin.
 
 | Launch Screen                             | Task Screen                           |
 | ----------------------------------------- | ------------------------------------- |
-| ![Launch Screen](Screenshots/Welcome.png) | ![Task Screen](screenshots/Tasks.png) |
+| ![Launch Screen](Screenshots/Welcome.png) | ![Task Screen](Screenshots/Tasks.png) |
 
 ---
 
