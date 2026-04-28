@@ -56,7 +56,7 @@ No frameworks. No build tools. No dependencies to install. Just three files and 
 ## 🚀 Getting Started
 
 ### View it live
-Visit **[One Step](https://muftianees.github.io/one-step)** — no installation needed.
+Visit **[One Step](https://muftianees.github.io/One-Step)** — no installation needed.
 
 ### Run it locally
 
