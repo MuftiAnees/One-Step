@@ -56,13 +56,13 @@ No frameworks. No build tools. No dependencies to install. Just three files and 
 ## 🚀 Getting Started
 
 ### View it live
-Visit **[yourusername.github.io/one-step](https://muftianees.github.io/one-step)** — no installation needed.
+Visit **[One Step](https://muftianees.github.io/one-step)** — no installation needed.
 
 ### Run it locally
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/one-step.git
+git clone https://github.com/muftianees/one-step.git
 
 # Navigate into the folder
 cd one-step
@@ -107,7 +107,7 @@ One Step is open source and contributions are welcome. If you have an idea for a
 
 ```bash
 # Fork the repo, then clone your fork
-git clone https://github.com/yourusername/one-step.git
+git clone https://github.com/muftianees/one-step.git
 
 # Create a feature branch
 git checkout -b feature/your-feature-name
