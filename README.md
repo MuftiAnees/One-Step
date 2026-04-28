@@ -8,14 +8,6 @@ One Step is a warm, minimal task tracker built for people who struggle to begin.
 
 ---
 
-## 📸 Screenshots
-
-| Launch Screen | Task Screen |
-|---|---|
-| ![Launch Screen](screenshots/launch.png) | ![Task Screen](screenshots/tasks.png) |
-
----
-
 ## ✨ Features
 
 - **Daily quote on launch** — A rotating collection of warm, anti-procrastination quotes to start your session with the right mindset
