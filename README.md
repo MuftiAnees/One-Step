@@ -4,7 +4,7 @@
 
 One Step is a warm, minimal task tracker built for people who struggle to begin. Not another productivity app that makes you feel guilty — One Step meets you where you are, with no streaks to break and no pressure to be perfect. Just one step at a time.
 
-**[Live Demo](https://muftianees.github.io/one-step)** • **[Report a Bug](https://github.com/muftianees/one-step/issues)** • **[Request a Feature](https://github.com/muftianees/one-step/issues)**
+**[Live Demo](https://muftianees.github.io/One-Step)** • **[Report a Bug](https://github.com/muftianees/one-step/issues)** • **[Request a Feature](https://github.com/muftianees/one-step/issues)**
 
 ---
 
